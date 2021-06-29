@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "dog",
+      "type": "com.springboot.bean.Dog",
+      "sourceType": "com.springboot.bean.Dog"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dog.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.springboot.bean.Dog"
+    },
+    {
+      "name": "dog.name",
+      "type": "java.lang.String",
+      "sourceType": "com.springboot.bean.Dog"
+    }
+  ],
+  "hints": []
+}

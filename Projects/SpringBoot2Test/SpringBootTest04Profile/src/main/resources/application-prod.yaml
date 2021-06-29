@@ -1,0 +1,6 @@
+#生产环境
+person:
+  name: prod-张三
+  age: 18
+server:
+#  port: 9000

@@ -1,0 +1,21 @@
+person:
+  name: zhangsan
+  boss: true
+  both: 2000/06/05
+  age: 18
+  pet:
+    name: 巴扎黑
+  interests:
+    - 篮球
+    - 足球
+    - 羽毛球
+  animal: [柯基,阿拉斯加]
+  score: {english: 90,math: 88}
+  salarys: [9999.00,19999.00]
+  allPets:
+    a:
+      - {name: 基柯}
+      - {name: 奇士哈}
+    b:
+      - {name: 拉布拉多}
+      - {name: 英短}

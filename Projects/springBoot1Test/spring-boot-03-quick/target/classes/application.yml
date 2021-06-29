@@ -1,0 +1,17 @@
+person:
+  name: 甄英俊
+  age: 18
+  id: 2018032528
+  maps: {k1: v1,k2: v2}
+  list:
+    - 1
+    - 2
+    - 3
+  dogs:
+    - name: 旺旺
+      age: 2
+    - name: 小白
+      age: 1
+  dog:
+    name: 阿黄
+    age: 3

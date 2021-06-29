@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: com.zyj.admin.JunitTests
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 5, Errors: 1, Skipped: 2, Time elapsed: 0.63 s <<< FAILURE! - in com.zyj.admin.JunitTests
+testException  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 业务逻辑居然正常运行 ==> Expected java.lang.ArithmeticException to be thrown, but nothing was thrown.
+	at com.zyj.admin.JunitTests.testException(JunitTests.java:88)
+
+testTimeout  Time elapsed: 0.527 s  <<< ERROR!
+java.util.concurrent.TimeoutException: testTimeout() timed out after 500 milliseconds
+
+testArray  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 数组不相等 ==> array contents differ at index [0], expected: <2> but was: <1>
+	at com.zyj.admin.JunitTests.testArray(JunitTests.java:64)
+
+testFail  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 测试失败
+	at com.zyj.admin.JunitTests.testFail(JunitTests.java:97)
+
+all  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+test (1 failure)
+	org.opentest4j.AssertionFailedError: 结果不是1 ==> expected: <1> but was: <2>
+	at com.zyj.admin.JunitTests.all(JunitTests.java:78)
+
+testSimpleAssertions  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 两个对象不一样 ==> expected: java.lang.String@13fe5bb7<abc> but was: java.lang.String@4276ad40<abc>
+	at com.zyj.admin.JunitTests.testSimpleAssertions(JunitTests.java:56)
+

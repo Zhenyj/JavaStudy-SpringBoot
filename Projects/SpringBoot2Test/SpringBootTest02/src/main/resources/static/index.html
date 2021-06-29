@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<h1>欢迎,SpringBoot</h1>
+测试Rest风格:
+<form action="/user" method="get">
+  <input value="REST-GET" type="submit">
+</form>
+<form action="/user" method="post">
+  <input value="REST-POST" type="submit">
+</form>
+<form action="/user" method="post">
+  <!-- 表单不支持PUT和DELETE提交方式,所以用name="-method" 并将value设置成PUT或DELETE,
+  一般都将这个input隐藏
+   或者使用AJAX
+   -->
+  <input type="hidden" name="_method" value="PUT">
+  <input value="REST-PUT" type="submit">
+</form>
+<form action="/user" method="post">
+  <input type="hidden" name="_method" value="DELETE">
+  <input value="REST-DELETE" type="submit">
+</form>
+</body>
+</html>

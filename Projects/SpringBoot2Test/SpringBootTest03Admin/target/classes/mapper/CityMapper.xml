@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zyj.admin.mapper.CityMapper">
+
+  <!-- useGeneratedKeys使用自增主键,keyProperty指定自增的属性 -->
+  <insert id="saveCity" useGeneratedKeys="true" keyProperty="id">
+    insert into city(`name`,`state`,`country`) values(#{name},#{state},#{country})
+  </insert>
+</mapper>

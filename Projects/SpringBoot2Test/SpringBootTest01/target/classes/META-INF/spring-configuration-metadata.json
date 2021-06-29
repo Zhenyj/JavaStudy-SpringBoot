@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "name": "mycar",
+      "type": "com.zyj.boot.bean.Car",
+      "sourceType": "com.zyj.boot.bean.Car"
+    },
+    {
+      "name": "person",
+      "type": "com.zyj.boot.bean.Person",
+      "sourceType": "com.zyj.boot.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mycar.brand",
+      "type": "java.lang.String",
+      "sourceType": "com.zyj.boot.bean.Car"
+    },
+    {
+      "name": "mycar.price",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zyj.boot.bean.Car"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zyj.boot.bean.Person"
+    },
+    {
+      "name": "person.all-pets",
+      "type": "java.util.Map<java.lang.String,java.util.List<com.zyj.boot.bean.Pet>>",
+      "sourceType": "com.zyj.boot.bean.Person"
+    },
+    {
+      "name": "person.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.zyj.boot.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zyj.boot.bean.Person"
+    },
+    {
+      "name": "person.both",
+      "type": "java.util.Date",
+      "sourceType": "com.zyj.boot.bean.Person"
+    },
+    {
+      "name": "person.interests",
+      "type": "java.lang.String[]",
+      "sourceType": "com.zyj.boot.bean.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.zyj.boot.bean.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.zyj.boot.bean.Pet",
+      "sourceType": "com.zyj.boot.bean.Person"
+    },
+    {
+      "name": "person.salarys",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "com.zyj.boot.bean.Person"
+    },
+    {
+      "name": "person.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.zyj.boot.bean.Person"
+    }
+  ],
+  "hints": []
+}
